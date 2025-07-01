@@ -66,7 +66,7 @@ customer_order_count as (
         *,
 
         row_number() over (
-            partition by customer_id
+            partition by CUSTOMER_ID
             order by ordered_at asc
         ) as customer_order_number
 
