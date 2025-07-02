@@ -50,7 +50,8 @@ compute_booleans as (
         order_items_summary.count_drink_items,
         order_items_summary.count_order_items,
         order_items_summary.count_food_items > 0 as is_food_order,
-        order_items_summary.count_drink_items > 0 as is_drink_order
+        order_items_summary.count_drink_items > 0 as is_drink_order,
+        0 as new_col
 
     from orders
 
