@@ -1,5 +1,10 @@
 packages:
   - package: dbt-labs/dbt_utils
     version: 1.1.1
+<<<<<<< HEAD
+=======
+  - package: calogica/dbt_date
+    version: 0.10.0
+>>>>>>> 0b865aab2e52ca6e697b91cb04360c14c708e0aa
   - package: dbt-labs/codegen
     version: 0.13.1
