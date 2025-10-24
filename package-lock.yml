@@ -1,8 +1,11 @@
 packages:
-  - package: dbt-labs/dbt_utils
+  - name: dbt_utils
+    package: dbt-labs/dbt_utils
     version: 1.1.1
-  - package: calogica/dbt_date
-    version: 0.10.0
-  - package: dbt-labs/codegen
+  - name: dbt_date
+    package: godatadriven/dbt_date
+    version: 0.15.0
+  - name: codegen
+    package: dbt-labs/codegen
     version: 0.13.1
-sha1_hash: 9b62a956645a3eb532bf6e73f32d407804d7065d
+sha1_hash: f5b2cfe8b79f8ec08568f0c907250f8e1c64aa40

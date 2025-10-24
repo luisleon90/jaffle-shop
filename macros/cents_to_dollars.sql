@@ -5,7 +5,7 @@
 {%- endmacro %}
 
 {% macro default__cents_to_dollars(column_name) -%}
-    ({{ column_name }} / 100)::numeric(16, 2)
+    (cast({{ column_name }} / 100)) AS numeric(16, 2)
 {%- endmacro %}
 
 {% macro postgres__cents_to_dollars(column_name) -%}
