@@ -1,6 +1,6 @@
 config-version: 2
 
-name: "jaffle_shop"
+name: "jaffle_shop_athena"
 version: "3.0.0"
 require-dbt-version: ">=1.5.0"
 
